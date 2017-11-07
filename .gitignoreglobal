@@ -1,0 +1,11 @@
+venv/
+.idea/
+__pycache__/
+*.sqlite3
+*.pyc
+celerybeat-schedule
+source
+stellar.yaml
+.directory
+/manage.py
+AWScredentials.csv
