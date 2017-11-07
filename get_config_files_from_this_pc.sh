@@ -12,6 +12,9 @@ cp -R ~/.ssh $BACKUP_DIR/
 # zsh settings
 cp ~/.zshrc $BACKUP_DIR/
 
+# tmux settings
+cp ~/.tmux.conf $BACKUP_DIR/
+
 # oh-my-zsh aliases and custom config
 mkdir -p $BACKUP_DIR/.oh-my-zsh/custom
 cp -R ~/.oh-my-zsh/custom $BACKUP_DIR/.oh-my-zsh/
