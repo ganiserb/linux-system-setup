@@ -18,3 +18,6 @@ cp -R ~/.oh-my-zsh/custom $BACKUP_DIR/.oh-my-zsh/
 
 # Git global gitignore
 cp ~/.gitignoreglobal $BACKUP_DIR/
+
+# gnucash config
+cp -R ~/.gnucash $BACKUP_DIR/
