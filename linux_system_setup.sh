@@ -23,7 +23,7 @@ aptitude --assume-yes install build-essential gcc
 aptitude --assume-yes install dpkg-dev libdbus-1-dev jq libsdl2-dev libsdl2-image-dev libfftw3-dev
 
 # Utils
-aptitude --assume-yes install gnucash tmux
+aptitude --assume-yes install gnucash tmux shutter
 
 
 # SSH keys and keyrring (No funciona por defecto en Lubuntu)
