@@ -6,6 +6,8 @@ echo "First make sure sure software sources include non-free packages and the se
 sleep 5
 software-properties-kde
 
+add-apt-repository ppa:neovim-ppa/stable
+
 apt --assume-yes update
 apt --assume-yes upgrade
 apt --assume-yes install aptitude
@@ -23,11 +25,16 @@ apt --assume-yes install python3 ipython3 python3-pip python3-dev
 pip install virtualenvwrapper
 pip3 install virtualenv
 
+# Neovim
+apt-get install python-dev python-pip python3-dev python3-pip curl vim exuberant-ctags git ack-grep
+pip install neovim pep8 flake8 pyflakes pylint isort
+pip3 install neovim pep8 flake8 pyflakes pylint isort
+
 # Version control
 apt --assume-yes install git mercurial subversion gitg
 
 # IDEs
-apt --assume-yes install geany geany-plugins
+apt --assume-yes install geany geany-plugins neovim
 
 # IRC
 apt --assume-yes install hexchat
