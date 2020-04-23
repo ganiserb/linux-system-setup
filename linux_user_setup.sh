@@ -27,5 +27,5 @@ mkdir -p ~/.config/nvim/
 nvim
 
 # Upgrade pip and install useful user tools:
-python3 -m pip install --upgrade pip 
+python3 -m pip install --upgrade pip
 python3 -m pip install --user jupyter
