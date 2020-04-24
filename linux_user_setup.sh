@@ -1,6 +1,6 @@
 #  Do NOT run as root
 
-curl -L http://install.ohmyz.sh | sh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # Poweline symbols
 wget https://github.com/Lokaltog/powerline/raw/develop/font/PowerlineSymbols.otf
