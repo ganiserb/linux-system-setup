@@ -6,8 +6,6 @@ echo "First make sure software sources include non-free packages and the server 
 sleep 5
 software-properties-kde
 
-add-apt-repository ppa:neovim-ppa/stable
-
 apt --assume-yes update
 apt --assume-yes upgrade
 
@@ -20,11 +18,6 @@ apt --assume-yes install gnucash tmux shutter baobab
 # ====== dev ======
 #	Python 3
 apt --assume-yes install python3 ipython3 python3-pip python3-dev
-pip3 install virtualenv
-
-# Neovim
-apt-get install python-dev python-pip python3-dev python3-pip curl vim exuberant-ctags git ack-grep
-pip3 install neovim pep8 flake8 pyflakes pylint isort
 
 # Version control
 apt --assume-yes install git mercurial
@@ -32,10 +25,11 @@ apt --assume-yes install git mercurial
 # IDEs
 apt --assume-yes install geany geany-plugins neovim
 
-# Custon audio output per applications
-apt --assume-yes install pavucontrol
-
+# ====== joy ======
 # Pycharm
 snap install pycharm-professional --classic
+
+# Spotify
+snap install spotify
 
 echo "Done!"
